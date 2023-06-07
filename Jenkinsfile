@@ -12,7 +12,7 @@ pipeline {
     stage('Create Git Tag') {
       steps {
         script {
-          def tag = "charan" // Specify the tag name you want to create
+          def tag = "Grandhicharan" // Specify the tag name you want to create
 
           // Create the Git tag
           sh "git tag ${tag}"
