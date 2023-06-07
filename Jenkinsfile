@@ -20,3 +20,4 @@ pipeline {
           // Push the Git tag to the remote repository
           sh "git push origin ${tag}"
         }
+      }
