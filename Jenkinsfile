@@ -21,3 +21,6 @@ pipeline {
           sh "git push origin ${tag}"
         }
       }
+    }
+  }
+}
